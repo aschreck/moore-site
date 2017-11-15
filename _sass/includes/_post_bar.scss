@@ -1,10 +1,12 @@
 .post-bar {
+    width: 18%;
+    padding-top: 25px;
     float: left;
     display: flex;
     flex-direction: column;
     margin-bottom: 100%; 
 } .post-bar a {
-    padding: 5px;
+    padding: 10px;
     border-style: solid;
     border-width: thin;
     background-color: white;

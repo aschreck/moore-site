@@ -30,9 +30,11 @@
 .posts {
     
     .post-teaser {
-        padding: 30px;
-        width: 65%;
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 50%;
         margin-bottom: 0;
+        margin-left: 35px;
         display: inline-block;
         background-size: $feature-image-size;
         border-bottom: 1px solid $border-color;
