@@ -1,19 +1,22 @@
 .post-bar {
     width: 18%;
-    padding-top: 25px;
+    margin-top: 25px;
     float: left;
     display: flex;
     flex-direction: column;
     margin-bottom: 100%; 
+    // border-style: solid;
 } .post-bar a {
     padding: 10px;
-    border-style: solid;
+    border-style: solid;    // border-color: white;
     border-width: thin;
-    background-color: white;
+    border-radius: 6px;
+    background-color: $feature-image-text-color;
     color: $text-color;
     font-family: 'Times New Roman', Times, serif;
-   font-style: italic;
+    font-weight: bold;
+    box-shadow: 2px 2px;
 } .post-bar a:hover {
-    background-color: lightgray;
+    background-color: gray;
 }
 
